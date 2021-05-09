@@ -1,0 +1,6 @@
+framework module Pods_OrangeVideoTests {
+  umbrella header "Pods-OrangeVideoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
