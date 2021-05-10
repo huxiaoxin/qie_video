@@ -803,6 +803,7 @@
     listModel2.content = @"我并不觉得廉价哦，是否廉价取决于自己的生活态度，谢谢";
     listModel2.time = @"周三";
     listModel2.ChatID = 2;
+    listModel2.isShowRed = NO;
     [tempArr addObject:listModel2];
 
     
@@ -812,6 +813,7 @@
     listModel3.content = @"楼主你自己 有感同深受过吗？";
     listModel3.time = @"周一";
     listModel3.ChatID = 3;
+    listModel3.isShowRed = NO;
     [tempArr addObject:listModel3];
 
     

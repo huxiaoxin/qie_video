@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.gk_navTitle = @"我的预约";
+    self.navigationItem.title = @"我的预约";
     [self.view addSubview:self.FilmFactoryTableView];
     // Do any additional setup after loading the view.
 }
@@ -29,7 +29,7 @@
 }
 - (UITableView *)FilmFactoryTableView{
     if (!_FilmFactoryTableView) {
-        _FilmFactoryTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, NaviH, SCREEN_Width, SCREEN_Height-NaviH-GK_SAFEAREA_BTM) style:UITableViewStylePlain];
+        _FilmFactoryTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_Width, SCREEN_Height-NaviH-GK_SAFEAREA_BTM) style:UITableViewStylePlain];
         _FilmFactoryTableView.delegate = self;
         _FilmFactoryTableView.dataSource = self;
         _FilmFactoryTableView.showsVerticalScrollIndicator = NO;
