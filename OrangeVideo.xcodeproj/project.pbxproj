@@ -98,22 +98,27 @@
 		4A85DFB426466F5A0080E9FF /* FilmFactoryZoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A85DF6A26466F5A0080E9FF /* FilmFactoryZoneTableViewCell.m */; };
 		5996BF9D167C276BCEA8CD79 /* Pods_OrangeVideo_OrangeVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6139B20F0AD2DE12D661387 /* Pods_OrangeVideo_OrangeVideoUITests.framework */; };
 		615D6A4DF86F15DD85C87089 /* Pods_OrangeVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1B24973D674C5B78541F48 /* Pods_OrangeVideo.framework */; };
+		8A43F6AA26490E77003E62D3 /* ORFetchChannelMenuDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6A826490E77003E62D3 /* ORFetchChannelMenuDataModel.m */; };
+		8A43F6AD26490E9C003E62D3 /* ORVideoBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6AC26490E9C003E62D3 /* ORVideoBaseItem.m */; };
+		8A43F6B026490EB4003E62D3 /* ORChannelBaseItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6AE26490EB4003E62D3 /* ORChannelBaseItemView.m */; };
+		8A43F6B326490EC6003E62D3 /* ORIndexChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6B226490EC5003E62D3 /* ORIndexChannelItem.m */; };
+		8A43F6B626490EE0003E62D3 /* ORChannelNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6B426490EE0003E62D3 /* ORChannelNoDataView.m */; };
+		8A43F6BB26490F5F003E62D3 /* ORHotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6BA26490F5F003E62D3 /* ORHotDetailViewController.m */; };
+		8A43F6BE26490F87003E62D3 /* ORHotVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6BD26490F87003E62D3 /* ORHotVideoView.m */; };
+		8A43F6C126490F99003E62D3 /* ORHotChannelDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6BF26490F99003E62D3 /* ORHotChannelDataModel.m */; };
+		8A43F6C426490FAE003E62D3 /* ORHotVideoDetailDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6C326490FAE003E62D3 /* ORHotVideoDetailDataModel.m */; };
+		8A43F6C726490FC1003E62D3 /* ORDoubleLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6C626490FC1003E62D3 /* ORDoubleLikeView.m */; };
+		8A43F6CA26490FD3003E62D3 /* ORDYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6C826490FD3003E62D3 /* ORDYTableViewCell.m */; };
+		8A43F6CD26490FE8003E62D3 /* ORSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6CB26490FE7003E62D3 /* ORSliderView.m */; };
+		8A43F6D026490FFC003E62D3 /* ORLineLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6CF26490FFC003E62D3 /* ORLineLoadingView.m */; };
+		8A43F6D326491011003E62D3 /* ORLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6D226491011003E62D3 /* ORLikeView.m */; };
+		8A43F6D626491025003E62D3 /* ORHotVideoPraiseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6D426491025003E62D3 /* ORHotVideoPraiseDataModel.m */; };
+		8A43F6D9264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43F6D8264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.m */; };
 		B5049E9E25C1143300B8302F /* ORSearchChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5049E9D25C1143300B8302F /* ORSearchChannelViewController.m */; };
 		B5049EA525C11B5900B8302F /* ORMenuChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5049EA425C11B5900B8302F /* ORMenuChannelManager.m */; };
 		B5049EAE25C1238B00B8302F /* ORSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5049EAD25C1238B00B8302F /* ORSearchResultTableViewCell.m */; };
-		B507111A25B759360041DAB1 /* ORCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B507111925B759360041DAB1 /* ORCategoryViewController.m */; };
-		B507112325B7C4CC0041DAB1 /* ORBannerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B507112225B7C4CC0041DAB1 /* ORBannerDataModel.m */; };
-		B507112C25B7C5640041DAB1 /* ORChannelNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B507112B25B7C5640041DAB1 /* ORChannelNoDataView.m */; };
-		B507113C25B7CD030041DAB1 /* ORIndexChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B507113B25B7CD030041DAB1 /* ORIndexChannelItem.m */; };
-		B507114525B848020041DAB1 /* ORChannelBaseItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B507114425B848020041DAB1 /* ORChannelBaseItemView.m */; };
-		B50CBBB125BD3FAB0073E2B5 /* ORHotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50CBBB025BD3FAB0073E2B5 /* ORHotDetailViewController.m */; };
-		B5187C9F25BCA6640011FB43 /* ORHotChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5187C9725BCA6640011FB43 /* ORHotChannelTableViewCell.m */; };
-		B5187CA025BCA6640011FB43 /* ORHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5187C9925BCA6640011FB43 /* ORHotViewController.m */; };
-		B5187CA125BCA6640011FB43 /* ORHotChannelDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5187C9B25BCA6640011FB43 /* ORHotChannelDataModel.m */; };
-		B5187CA225BCA6640011FB43 /* ORHotChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5187C9E25BCA6640011FB43 /* ORHotChannelViewController.m */; };
 		B51E389925A8089800BDDD32 /* ORTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E389825A8089800BDDD32 /* ORTabBarController.m */; };
 		B51E38A525A8098F00BDDD32 /* ORTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E38A425A8098F00BDDD32 /* ORTabBar.m */; };
-		B51E38AC25A80CC200BDDD32 /* ORIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E38AB25A80CC200BDDD32 /* ORIndexViewController.m */; };
 		B51E38B525A8292100BDDD32 /* ORH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E38B425A8292100BDDD32 /* ORH5ViewController.m */; };
 		B51E38BE25A8298D00BDDD32 /* ORUMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E38BD25A8298D00BDDD32 /* ORUMConfig.m */; };
 		B51E38C425A829D400BDDD32 /* ORAgreementHintsConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E38C325A829D400BDDD32 /* ORAgreementHintsConfig.m */; };
@@ -124,7 +129,6 @@
 		B51E391C25A83E2600BDDD32 /* ORLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E391B25A83E2600BDDD32 /* ORLoginViewController.m */; };
 		B51E393025A844AC00BDDD32 /* ORDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E392F25A844AC00BDDD32 /* ORDiscoveryViewController.m */; };
 		B527F3A825BE754800131CBB /* ORSearchHotDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B527F3A725BE754800131CBB /* ORSearchHotDataModel.m */; };
-		B52F0CE725DEE4E1001BC27C /* ORDYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52F0CE625DEE4E1001BC27C /* ORDYTableViewCell.m */; };
 		B5378A2725C7B042007FD830 /* ORDeleteFavoriteDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5378A2625C7B042007FD830 /* ORDeleteFavoriteDataModel.m */; };
 		B5388DA925CBAFFF00CD0944 /* ORVideoReportDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5388DA825CBAFFF00CD0944 /* ORVideoReportDataModel.m */; };
 		B5388DB225CBB02300CD0944 /* ORVideoReportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5388DB125CBB02300CD0944 /* ORVideoReportManager.m */; };
@@ -144,16 +148,6 @@
 		B549569F261B2F5900551C57 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B549569E261B2F5900551C57 /* ExternalAccessory.framework */; };
 		B54956A2261C80B400551C57 /* ORWaterVaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B54956A1261C80B400551C57 /* ORWaterVaveView.m */; };
 		B55722E3260F421B005553E7 /* ORLaunchAdvertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55722E2260F421B005553E7 /* ORLaunchAdvertManager.m */; };
-		B55CB5B225BD4A170046519A /* ORHotVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB5A625BD4A170046519A /* ORHotVideoView.m */; };
-		B55CB5DC25BD4B460046519A /* ORSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB5D125BD4B460046519A /* ORSliderView.m */; };
-		B55CB5DD25BD4B460046519A /* ORDoubleLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB5D525BD4B460046519A /* ORDoubleLikeView.m */; };
-		B55CB5DE25BD4B460046519A /* ORLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB5D625BD4B460046519A /* ORLikeView.m */; };
-		B55CB60225BD57A40046519A /* ORLineLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB60025BD57A40046519A /* ORLineLoadingView.m */; };
-		B55CB67425BDDA690046519A /* ORVideoBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB67325BDDA690046519A /* ORVideoBaseItem.m */; };
-		B55CB67D25BDDE9C0046519A /* ORChannelMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB67C25BDDE9C0046519A /* ORChannelMoreViewController.m */; };
-		B55CB68325BDE2380046519A /* ORChannelMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CB68225BDE2380046519A /* ORChannelMoreTableViewCell.m */; };
-		B57911D725B95FEB000ED5C0 /* ORChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B57911D625B95FEB000ED5C0 /* ORChannelTableViewCell.m */; };
-		B57911DD25B96B30000ED5C0 /* ORChannelDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57911DC25B96B30000ED5C0 /* ORChannelDataModel.m */; };
 		B57911EC25BB1D3E000ED5C0 /* ORUserInformManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B57911EB25BB1D3E000ED5C0 /* ORUserInformManager.m */; };
 		B57911F525BB1D51000ED5C0 /* ORUserInformDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57911F425BB1D51000ED5C0 /* ORUserInformDataModel.m */; };
 		B57911FB25BB20C0000ED5C0 /* ORAutoLoginDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57911FA25BB20C0000ED5C0 /* ORAutoLoginDataModel.m */; };
@@ -162,7 +156,6 @@
 		B579121925BBD6DB000ED5C0 /* ORDiscoveryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B579121825BBD6DB000ED5C0 /* ORDiscoveryTableViewCell.m */; };
 		B579121F25BC283D000ED5C0 /* ORDiscoveryBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B579121E25BC283D000ED5C0 /* ORDiscoveryBaseView.m */; };
 		B579279E25ADD95A00173A04 /* ORSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B579279D25ADD95A00173A04 /* ORSearchViewController.m */; };
-		B57927A425ADDAB300173A04 /* ORChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57927A325ADDAB300173A04 /* ORChannelViewController.m */; };
 		B57BEE1C25B13485000F5C5C /* ORWatchRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEE1B25B13485000F5C5C /* ORWatchRecordViewController.m */; };
 		B57BEE2525B134BD000F5C5C /* ORDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEE2425B134BD000F5C5C /* ORDownloadViewController.m */; };
 		B57BEE2B25B134D2000F5C5C /* ORSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEE2A25B134D2000F5C5C /* ORSettingViewController.m */; };
@@ -179,9 +172,6 @@
 		B57BEEF425B5A6E9000F5C5C /* ORLoginDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEEF325B5A6E9000F5C5C /* ORLoginDataModel.m */; };
 		B57BEEFD25B5A70B000F5C5C /* ORLoginSMSCodeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEEFC25B5A70B000F5C5C /* ORLoginSMSCodeDataModel.m */; };
 		B57BEF0B25B67265000F5C5C /* ORSearchDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BEF0A25B67265000F5C5C /* ORSearchDataModel.m */; };
-		B57E0F182607A68B00BE8FFB /* ORChannelSenceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E0F172607A68A00BE8FFB /* ORChannelSenceDataModel.m */; };
-		B57E0F2A26087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E0F2926087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.m */; };
-		B57E0F5426089A2F00BE8FFB /* ORHotVideoRecommendDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E0F5326089A2F00BE8FFB /* ORHotVideoRecommendDataModel.m */; };
 		B5840B2825BFC7D100420988 /* ORPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5840B2725BFC7D100420988 /* ORPlayerManager.m */; };
 		B59DCEA9261859D800CBE793 /* LBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B59DCEA8261859D800CBE793 /* LBManager.m */; };
 		B59DCEC2261864FB00CBE793 /* ORVideoPlayerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B59DCEAF261864FB00CBE793 /* ORVideoPlayerDataModel.m */; };
@@ -205,14 +195,8 @@
 		B5C6936A25EC9B1000AD27C6 /* ORUpgradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C6936525EC9B1000AD27C6 /* ORUpgradeView.m */; };
 		B5C6936B25EC9B1000AD27C6 /* ORUpgradeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C6936625EC9B1000AD27C6 /* ORUpgradeDataModel.m */; };
 		B5C6936C25EC9B1000AD27C6 /* ORUpgradeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C6936725EC9B1000AD27C6 /* ORUpgradeManager.m */; };
-		B5D964D925C9ABEF0055348F /* ORHotVideoDetailDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D964D825C9ABEF0055348F /* ORHotVideoDetailDataModel.m */; };
-		B5D964DF25C9C61E0055348F /* ORHotVideoPraiseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D964DE25C9C61E0055348F /* ORHotVideoPraiseDataModel.m */; };
-		B5D964E525C9C9370055348F /* ORHotVideoRemovePraiseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D964E425C9C9370055348F /* ORHotVideoRemovePraiseDataModel.m */; };
 		B5D964EB25CA4BD60055348F /* ORFavoriteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D964EA25CA4BD60055348F /* ORFavoriteTableViewCell.m */; };
 		B5D964F125CA4C0A0055348F /* ORFavoriteListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D964F025CA4C0A0055348F /* ORFavoriteListDataModel.m */; };
-		B5EDB25A25B0490F0029CB0D /* ORFetchChannelMenuDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDB25925B0490F0029CB0D /* ORFetchChannelMenuDataModel.m */; };
-		B5EDB26025B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDB25F25B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.m */; };
-		B5EDB26625B04E0C0029CB0D /* ORVideoMoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDB26525B04E0C0029CB0D /* ORVideoMoreDataModel.m */; };
 		B5EDB27825B04EE60029CB0D /* ORNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDB27725B04EE60029CB0D /* ORNetworkingManager.m */; };
 		B5EF2FB825A7286700A45809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EF2FB725A7286700A45809 /* AppDelegate.m */; };
 		B5EF2FC325A7286A00A45809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EF2FC225A7286A00A45809 /* Assets.xcassets */; };
@@ -558,6 +542,38 @@
 		4A85DF6926466F5A0080E9FF /* FilmFactorySectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmFactorySectionHeader.h; sourceTree = "<group>"; };
 		4A85DF6A26466F5A0080E9FF /* FilmFactoryZoneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmFactoryZoneTableViewCell.m; sourceTree = "<group>"; };
 		5A1B24973D674C5B78541F48 /* Pods_OrangeVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A43F6A826490E77003E62D3 /* ORFetchChannelMenuDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORFetchChannelMenuDataModel.m; sourceTree = "<group>"; };
+		8A43F6A926490E77003E62D3 /* ORFetchChannelMenuDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORFetchChannelMenuDataModel.h; sourceTree = "<group>"; };
+		8A43F6AB26490E9C003E62D3 /* ORVideoBaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORVideoBaseItem.h; sourceTree = "<group>"; };
+		8A43F6AC26490E9C003E62D3 /* ORVideoBaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORVideoBaseItem.m; sourceTree = "<group>"; };
+		8A43F6AE26490EB4003E62D3 /* ORChannelBaseItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORChannelBaseItemView.m; sourceTree = "<group>"; };
+		8A43F6AF26490EB4003E62D3 /* ORChannelBaseItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORChannelBaseItemView.h; sourceTree = "<group>"; };
+		8A43F6B126490EC5003E62D3 /* ORIndexChannelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORIndexChannelItem.h; sourceTree = "<group>"; };
+		8A43F6B226490EC5003E62D3 /* ORIndexChannelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORIndexChannelItem.m; sourceTree = "<group>"; };
+		8A43F6B426490EE0003E62D3 /* ORChannelNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORChannelNoDataView.m; sourceTree = "<group>"; };
+		8A43F6B526490EE0003E62D3 /* ORChannelNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORChannelNoDataView.h; sourceTree = "<group>"; };
+		8A43F6B926490F5F003E62D3 /* ORHotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotDetailViewController.h; sourceTree = "<group>"; };
+		8A43F6BA26490F5F003E62D3 /* ORHotDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotDetailViewController.m; sourceTree = "<group>"; };
+		8A43F6BC26490F87003E62D3 /* ORHotVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotVideoView.h; sourceTree = "<group>"; };
+		8A43F6BD26490F87003E62D3 /* ORHotVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoView.m; sourceTree = "<group>"; };
+		8A43F6BF26490F99003E62D3 /* ORHotChannelDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotChannelDataModel.m; sourceTree = "<group>"; };
+		8A43F6C026490F99003E62D3 /* ORHotChannelDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotChannelDataModel.h; sourceTree = "<group>"; };
+		8A43F6C226490FAE003E62D3 /* ORHotVideoDetailDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotVideoDetailDataModel.h; sourceTree = "<group>"; };
+		8A43F6C326490FAE003E62D3 /* ORHotVideoDetailDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoDetailDataModel.m; sourceTree = "<group>"; };
+		8A43F6C526490FC1003E62D3 /* ORDoubleLikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDoubleLikeView.h; sourceTree = "<group>"; };
+		8A43F6C626490FC1003E62D3 /* ORDoubleLikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDoubleLikeView.m; sourceTree = "<group>"; };
+		8A43F6C826490FD3003E62D3 /* ORDYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDYTableViewCell.m; sourceTree = "<group>"; };
+		8A43F6C926490FD3003E62D3 /* ORDYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDYTableViewCell.h; sourceTree = "<group>"; };
+		8A43F6CB26490FE7003E62D3 /* ORSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSliderView.m; sourceTree = "<group>"; };
+		8A43F6CC26490FE8003E62D3 /* ORSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSliderView.h; sourceTree = "<group>"; };
+		8A43F6CE26490FFC003E62D3 /* ORLineLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineLoadingView.h; sourceTree = "<group>"; };
+		8A43F6CF26490FFC003E62D3 /* ORLineLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineLoadingView.m; sourceTree = "<group>"; };
+		8A43F6D126491011003E62D3 /* ORLikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLikeView.h; sourceTree = "<group>"; };
+		8A43F6D226491011003E62D3 /* ORLikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLikeView.m; sourceTree = "<group>"; };
+		8A43F6D426491025003E62D3 /* ORHotVideoPraiseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoPraiseDataModel.m; sourceTree = "<group>"; };
+		8A43F6D526491025003E62D3 /* ORHotVideoPraiseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotVideoPraiseDataModel.h; sourceTree = "<group>"; };
+		8A43F6D7264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotVideoRemovePraiseDataModel.h; sourceTree = "<group>"; };
+		8A43F6D8264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoRemovePraiseDataModel.m; sourceTree = "<group>"; };
 		B334E380802F4BF3B3D3BDEB /* Pods-OrangeVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeVideoTests.release.xcconfig"; path = "Target Support Files/Pods-OrangeVideoTests/Pods-OrangeVideoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5049E9C25C1143300B8302F /* ORSearchChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSearchChannelViewController.h; sourceTree = "<group>"; };
 		B5049E9D25C1143300B8302F /* ORSearchChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSearchChannelViewController.m; sourceTree = "<group>"; };
@@ -565,32 +581,10 @@
 		B5049EA425C11B5900B8302F /* ORMenuChannelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORMenuChannelManager.m; sourceTree = "<group>"; };
 		B5049EAC25C1238B00B8302F /* ORSearchResultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSearchResultTableViewCell.h; sourceTree = "<group>"; };
 		B5049EAD25C1238B00B8302F /* ORSearchResultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSearchResultTableViewCell.m; sourceTree = "<group>"; };
-		B507111825B759360041DAB1 /* ORCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORCategoryViewController.h; sourceTree = "<group>"; };
-		B507111925B759360041DAB1 /* ORCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORCategoryViewController.m; sourceTree = "<group>"; };
-		B507112125B7C4CC0041DAB1 /* ORBannerDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBannerDataModel.h; sourceTree = "<group>"; };
-		B507112225B7C4CC0041DAB1 /* ORBannerDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORBannerDataModel.m; sourceTree = "<group>"; };
-		B507112A25B7C5640041DAB1 /* ORChannelNoDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelNoDataView.h; sourceTree = "<group>"; };
-		B507112B25B7C5640041DAB1 /* ORChannelNoDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelNoDataView.m; sourceTree = "<group>"; };
-		B507113A25B7CD030041DAB1 /* ORIndexChannelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORIndexChannelItem.h; sourceTree = "<group>"; };
-		B507113B25B7CD030041DAB1 /* ORIndexChannelItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORIndexChannelItem.m; sourceTree = "<group>"; };
-		B507114325B848020041DAB1 /* ORChannelBaseItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelBaseItemView.h; sourceTree = "<group>"; };
-		B507114425B848020041DAB1 /* ORChannelBaseItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelBaseItemView.m; sourceTree = "<group>"; };
-		B50CBBAF25BD3FAB0073E2B5 /* ORHotDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORHotDetailViewController.h; sourceTree = "<group>"; };
-		B50CBBB025BD3FAB0073E2B5 /* ORHotDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORHotDetailViewController.m; sourceTree = "<group>"; };
-		B5187C9525BCA6640011FB43 /* ORHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotViewController.h; sourceTree = "<group>"; };
-		B5187C9725BCA6640011FB43 /* ORHotChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotChannelTableViewCell.m; sourceTree = "<group>"; };
-		B5187C9825BCA6640011FB43 /* ORHotChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotChannelTableViewCell.h; sourceTree = "<group>"; };
-		B5187C9925BCA6640011FB43 /* ORHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotViewController.m; sourceTree = "<group>"; };
-		B5187C9B25BCA6640011FB43 /* ORHotChannelDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotChannelDataModel.m; sourceTree = "<group>"; };
-		B5187C9C25BCA6640011FB43 /* ORHotChannelDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotChannelDataModel.h; sourceTree = "<group>"; };
-		B5187C9D25BCA6640011FB43 /* ORHotChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotChannelViewController.h; sourceTree = "<group>"; };
-		B5187C9E25BCA6640011FB43 /* ORHotChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotChannelViewController.m; sourceTree = "<group>"; };
 		B51E389725A8089800BDDD32 /* ORTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORTabBarController.h; sourceTree = "<group>"; };
 		B51E389825A8089800BDDD32 /* ORTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORTabBarController.m; sourceTree = "<group>"; };
 		B51E38A325A8098F00BDDD32 /* ORTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORTabBar.h; sourceTree = "<group>"; };
 		B51E38A425A8098F00BDDD32 /* ORTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORTabBar.m; sourceTree = "<group>"; };
-		B51E38AA25A80CC200BDDD32 /* ORIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORIndexViewController.h; sourceTree = "<group>"; };
-		B51E38AB25A80CC200BDDD32 /* ORIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORIndexViewController.m; sourceTree = "<group>"; };
 		B51E38B325A8292100BDDD32 /* ORH5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORH5ViewController.h; sourceTree = "<group>"; };
 		B51E38B425A8292100BDDD32 /* ORH5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORH5ViewController.m; sourceTree = "<group>"; };
 		B51E38BC25A8298D00BDDD32 /* ORUMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORUMConfig.h; sourceTree = "<group>"; };
@@ -613,8 +607,6 @@
 		B51E392F25A844AC00BDDD32 /* ORDiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDiscoveryViewController.m; sourceTree = "<group>"; };
 		B527F3A625BE754800131CBB /* ORSearchHotDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSearchHotDataModel.h; sourceTree = "<group>"; };
 		B527F3A725BE754800131CBB /* ORSearchHotDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSearchHotDataModel.m; sourceTree = "<group>"; };
-		B52F0CE525DEE4E1001BC27C /* ORDYTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORDYTableViewCell.h; sourceTree = "<group>"; };
-		B52F0CE625DEE4E1001BC27C /* ORDYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDYTableViewCell.m; sourceTree = "<group>"; };
 		B5378A2525C7B042007FD830 /* ORDeleteFavoriteDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORDeleteFavoriteDataModel.h; sourceTree = "<group>"; };
 		B5378A2625C7B042007FD830 /* ORDeleteFavoriteDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDeleteFavoriteDataModel.m; sourceTree = "<group>"; };
 		B5388DA725CBAFFF00CD0944 /* ORVideoReportDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORVideoReportDataModel.h; sourceTree = "<group>"; };
@@ -651,26 +643,6 @@
 		B55722E1260F421B005553E7 /* ORLaunchAdvertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORLaunchAdvertManager.h; sourceTree = "<group>"; };
 		B55722E2260F421B005553E7 /* ORLaunchAdvertManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORLaunchAdvertManager.m; sourceTree = "<group>"; };
 		B55972A325A7F697002323C6 /* OrangeVideoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrangeVideoPrefixHeader.pch; sourceTree = "<group>"; };
-		B55CB5A625BD4A170046519A /* ORHotVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoView.m; sourceTree = "<group>"; };
-		B55CB5AD25BD4A170046519A /* ORHotVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHotVideoView.h; sourceTree = "<group>"; };
-		B55CB5D025BD4B460046519A /* ORSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSliderView.h; sourceTree = "<group>"; };
-		B55CB5D125BD4B460046519A /* ORSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSliderView.m; sourceTree = "<group>"; };
-		B55CB5D325BD4B460046519A /* ORDoubleLikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDoubleLikeView.h; sourceTree = "<group>"; };
-		B55CB5D425BD4B460046519A /* ORLikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLikeView.h; sourceTree = "<group>"; };
-		B55CB5D525BD4B460046519A /* ORDoubleLikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDoubleLikeView.m; sourceTree = "<group>"; };
-		B55CB5D625BD4B460046519A /* ORLikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLikeView.m; sourceTree = "<group>"; };
-		B55CB60025BD57A40046519A /* ORLineLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineLoadingView.m; sourceTree = "<group>"; };
-		B55CB60125BD57A40046519A /* ORLineLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineLoadingView.h; sourceTree = "<group>"; };
-		B55CB67225BDDA690046519A /* ORVideoBaseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORVideoBaseItem.h; sourceTree = "<group>"; };
-		B55CB67325BDDA690046519A /* ORVideoBaseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORVideoBaseItem.m; sourceTree = "<group>"; };
-		B55CB67B25BDDE9C0046519A /* ORChannelMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelMoreViewController.h; sourceTree = "<group>"; };
-		B55CB67C25BDDE9C0046519A /* ORChannelMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelMoreViewController.m; sourceTree = "<group>"; };
-		B55CB68125BDE2380046519A /* ORChannelMoreTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelMoreTableViewCell.h; sourceTree = "<group>"; };
-		B55CB68225BDE2380046519A /* ORChannelMoreTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelMoreTableViewCell.m; sourceTree = "<group>"; };
-		B57911D525B95FEB000ED5C0 /* ORChannelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelTableViewCell.h; sourceTree = "<group>"; };
-		B57911D625B95FEB000ED5C0 /* ORChannelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelTableViewCell.m; sourceTree = "<group>"; };
-		B57911DB25B96B30000ED5C0 /* ORChannelDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelDataModel.h; sourceTree = "<group>"; };
-		B57911DC25B96B30000ED5C0 /* ORChannelDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelDataModel.m; sourceTree = "<group>"; };
 		B57911EA25BB1D3E000ED5C0 /* ORUserInformManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORUserInformManager.h; sourceTree = "<group>"; };
 		B57911EB25BB1D3E000ED5C0 /* ORUserInformManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORUserInformManager.m; sourceTree = "<group>"; };
 		B57911F325BB1D51000ED5C0 /* ORUserInformDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORUserInformDataModel.h; sourceTree = "<group>"; };
@@ -687,8 +659,6 @@
 		B579121E25BC283D000ED5C0 /* ORDiscoveryBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDiscoveryBaseView.m; sourceTree = "<group>"; };
 		B579279C25ADD95A00173A04 /* ORSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSearchViewController.h; sourceTree = "<group>"; };
 		B579279D25ADD95A00173A04 /* ORSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSearchViewController.m; sourceTree = "<group>"; };
-		B57927A225ADDAB200173A04 /* ORChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelViewController.h; sourceTree = "<group>"; };
-		B57927A325ADDAB300173A04 /* ORChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelViewController.m; sourceTree = "<group>"; };
 		B57BEE1A25B13485000F5C5C /* ORWatchRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORWatchRecordViewController.h; sourceTree = "<group>"; };
 		B57BEE1B25B13485000F5C5C /* ORWatchRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORWatchRecordViewController.m; sourceTree = "<group>"; };
 		B57BEE2325B134BD000F5C5C /* ORDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORDownloadViewController.h; sourceTree = "<group>"; };
@@ -721,12 +691,6 @@
 		B57BEEFC25B5A70B000F5C5C /* ORLoginSMSCodeDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORLoginSMSCodeDataModel.m; sourceTree = "<group>"; };
 		B57BEF0925B67265000F5C5C /* ORSearchDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSearchDataModel.h; sourceTree = "<group>"; };
 		B57BEF0A25B67265000F5C5C /* ORSearchDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSearchDataModel.m; sourceTree = "<group>"; };
-		B57E0F162607A68A00BE8FFB /* ORChannelSenceDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORChannelSenceDataModel.h; sourceTree = "<group>"; };
-		B57E0F172607A68A00BE8FFB /* ORChannelSenceDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORChannelSenceDataModel.m; sourceTree = "<group>"; };
-		B57E0F2826087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORVideoSenceRefreshDataModel.h; sourceTree = "<group>"; };
-		B57E0F2926087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORVideoSenceRefreshDataModel.m; sourceTree = "<group>"; };
-		B57E0F5226089A2F00BE8FFB /* ORHotVideoRecommendDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORHotVideoRecommendDataModel.h; sourceTree = "<group>"; };
-		B57E0F5326089A2F00BE8FFB /* ORHotVideoRecommendDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoRecommendDataModel.m; sourceTree = "<group>"; };
 		B5840B2625BFC7D100420988 /* ORPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORPlayerManager.h; sourceTree = "<group>"; };
 		B5840B2725BFC7D100420988 /* ORPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORPlayerManager.m; sourceTree = "<group>"; };
 		B59DCEA7261859D800CBE793 /* LBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBManager.h; sourceTree = "<group>"; };
@@ -769,22 +733,10 @@
 		B5C6936825EC9B1000AD27C6 /* ORUpgradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORUpgradeView.h; sourceTree = "<group>"; };
 		B5C6936925EC9B1000AD27C6 /* ORUpgradeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORUpgradeManager.h; sourceTree = "<group>"; };
 		B5C6937F25F36AD300AD27C6 /* OrangeVideoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrangeVideoDebug.entitlements; sourceTree = "<group>"; };
-		B5D964D725C9ABEF0055348F /* ORHotVideoDetailDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORHotVideoDetailDataModel.h; sourceTree = "<group>"; };
-		B5D964D825C9ABEF0055348F /* ORHotVideoDetailDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoDetailDataModel.m; sourceTree = "<group>"; };
-		B5D964DD25C9C61E0055348F /* ORHotVideoPraiseDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORHotVideoPraiseDataModel.h; sourceTree = "<group>"; };
-		B5D964DE25C9C61E0055348F /* ORHotVideoPraiseDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoPraiseDataModel.m; sourceTree = "<group>"; };
-		B5D964E325C9C9370055348F /* ORHotVideoRemovePraiseDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORHotVideoRemovePraiseDataModel.h; sourceTree = "<group>"; };
-		B5D964E425C9C9370055348F /* ORHotVideoRemovePraiseDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORHotVideoRemovePraiseDataModel.m; sourceTree = "<group>"; };
 		B5D964E925CA4BD60055348F /* ORFavoriteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORFavoriteTableViewCell.h; sourceTree = "<group>"; };
 		B5D964EA25CA4BD60055348F /* ORFavoriteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORFavoriteTableViewCell.m; sourceTree = "<group>"; };
 		B5D964EF25CA4C0A0055348F /* ORFavoriteListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORFavoriteListDataModel.h; sourceTree = "<group>"; };
 		B5D964F025CA4C0A0055348F /* ORFavoriteListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORFavoriteListDataModel.m; sourceTree = "<group>"; };
-		B5EDB25825B0490F0029CB0D /* ORFetchChannelMenuDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORFetchChannelMenuDataModel.h; sourceTree = "<group>"; };
-		B5EDB25925B0490F0029CB0D /* ORFetchChannelMenuDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORFetchChannelMenuDataModel.m; sourceTree = "<group>"; };
-		B5EDB25E25B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORFetchSubChanelMenuDataModel.h; sourceTree = "<group>"; };
-		B5EDB25F25B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORFetchSubChanelMenuDataModel.m; sourceTree = "<group>"; };
-		B5EDB26425B04E0C0029CB0D /* ORVideoMoreDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORVideoMoreDataModel.h; sourceTree = "<group>"; };
-		B5EDB26525B04E0C0029CB0D /* ORVideoMoreDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORVideoMoreDataModel.m; sourceTree = "<group>"; };
 		B5EDB27625B04EE60029CB0D /* ORNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORNetworkingManager.h; sourceTree = "<group>"; };
 		B5EDB27725B04EE60029CB0D /* ORNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORNetworkingManager.m; sourceTree = "<group>"; };
 		B5EF2FB325A7286700A45809 /* OrangeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1549,6 +1501,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A43F6B726490F3B003E62D3 /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				8A43F6B526490EE0003E62D3 /* ORChannelNoDataView.h */,
+				8A43F6B426490EE0003E62D3 /* ORChannelNoDataView.m */,
+				8A43F6B126490EC5003E62D3 /* ORIndexChannelItem.h */,
+				8A43F6B226490EC5003E62D3 /* ORIndexChannelItem.m */,
+				8A43F6AF26490EB4003E62D3 /* ORChannelBaseItemView.h */,
+				8A43F6AE26490EB4003E62D3 /* ORChannelBaseItemView.m */,
+				8A43F6AB26490E9C003E62D3 /* ORVideoBaseItem.h */,
+				8A43F6AC26490E9C003E62D3 /* ORVideoBaseItem.m */,
+				8A43F6A926490E77003E62D3 /* ORFetchChannelMenuDataModel.h */,
+				8A43F6A826490E77003E62D3 /* ORFetchChannelMenuDataModel.m */,
+			);
+			path = homepage;
+			sourceTree = "<group>";
+		};
+		8A43F6B826490F49003E62D3 /* hotpage */ = {
+			isa = PBXGroup;
+			children = (
+				8A43F6D7264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.h */,
+				8A43F6D8264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.m */,
+				8A43F6D126491011003E62D3 /* ORLikeView.h */,
+				8A43F6D226491011003E62D3 /* ORLikeView.m */,
+				8A43F6CE26490FFC003E62D3 /* ORLineLoadingView.h */,
+				8A43F6CF26490FFC003E62D3 /* ORLineLoadingView.m */,
+				8A43F6CC26490FE8003E62D3 /* ORSliderView.h */,
+				8A43F6CB26490FE7003E62D3 /* ORSliderView.m */,
+				8A43F6C526490FC1003E62D3 /* ORDoubleLikeView.h */,
+				8A43F6C626490FC1003E62D3 /* ORDoubleLikeView.m */,
+				8A43F6C226490FAE003E62D3 /* ORHotVideoDetailDataModel.h */,
+				8A43F6C326490FAE003E62D3 /* ORHotVideoDetailDataModel.m */,
+				8A43F6C026490F99003E62D3 /* ORHotChannelDataModel.h */,
+				8A43F6BF26490F99003E62D3 /* ORHotChannelDataModel.m */,
+				8A43F6BC26490F87003E62D3 /* ORHotVideoView.h */,
+				8A43F6BD26490F87003E62D3 /* ORHotVideoView.m */,
+				8A43F6B926490F5F003E62D3 /* ORHotDetailViewController.h */,
+				8A43F6BA26490F5F003E62D3 /* ORHotDetailViewController.m */,
+				8A43F6C926490FD3003E62D3 /* ORDYTableViewCell.h */,
+				8A43F6C826490FD3003E62D3 /* ORDYTableViewCell.m */,
+				8A43F6D526491025003E62D3 /* ORHotVideoPraiseDataModel.h */,
+				8A43F6D426491025003E62D3 /* ORHotVideoPraiseDataModel.m */,
+			);
+			path = hotpage;
+			sourceTree = "<group>";
+		};
 		B5049EA225C11B3200B8302F /* MenuManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -1558,72 +1556,18 @@
 			path = MenuManager;
 			sourceTree = "<group>";
 		};
-		B507113025B7C56C0041DAB1 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB68125BDE2380046519A /* ORChannelMoreTableViewCell.h */,
-				B55CB68225BDE2380046519A /* ORChannelMoreTableViewCell.m */,
-				B57911D525B95FEB000ED5C0 /* ORChannelTableViewCell.h */,
-				B57911D625B95FEB000ED5C0 /* ORChannelTableViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		B5187C9125BCA6360011FB43 /* Index */ = {
-			isa = PBXGroup;
-			children = (
-				B5187C9625BCA6640011FB43 /* Cell */,
-				B5187C9A25BCA6640011FB43 /* Model */,
-				B5187C9D25BCA6640011FB43 /* ORHotChannelViewController.h */,
-				B5187C9E25BCA6640011FB43 /* ORHotChannelViewController.m */,
-				B5187C9525BCA6640011FB43 /* ORHotViewController.h */,
-				B5187C9925BCA6640011FB43 /* ORHotViewController.m */,
-			);
-			path = Index;
-			sourceTree = "<group>";
-		};
-		B5187C9625BCA6640011FB43 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B5187C9825BCA6640011FB43 /* ORHotChannelTableViewCell.h */,
-				B5187C9725BCA6640011FB43 /* ORHotChannelTableViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		B5187C9A25BCA6640011FB43 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B5187C9C25BCA6640011FB43 /* ORHotChannelDataModel.h */,
-				B5187C9B25BCA6640011FB43 /* ORHotChannelDataModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B5187CA725BCA68C0011FB43 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-				B50CBBAF25BD3FAB0073E2B5 /* ORHotDetailViewController.h */,
-				B50CBBB025BD3FAB0073E2B5 /* ORHotDetailViewController.m */,
-				B55CB5C025BD4B460046519A /* Tools */,
-				B55CB5A125BD48460046519A /* View */,
-				B55CB5A025BD43550046519A /* Model */,
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
 		B51E389525A806DF00BDDD32 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				8A43F6B826490F49003E62D3 /* hotpage */,
+				8A43F6B726490F3B003E62D3 /* homepage */,
 				B547DBB525C2CDD100704896 /* User */,
 				B55CB66625BDD4F00046519A /* Player */,
 				B579279B25ADD8B100173A04 /* Search */,
 				B51E393425A844C100BDDD32 /* Mine */,
 				B51E392D25A841F400BDDD32 /* Discovery */,
-				B51E392325A8416800BDDD32 /* Hot */,
 				B51E391925A83DE800BDDD32 /* Login */,
 				B51E38B225A828AD00BDDD32 /* H5 */,
-				B51E38A925A80CA100BDDD32 /* Index */,
 				B51E389625A8086C00BDDD32 /* Tab */,
 			);
 			path = Section;
@@ -1638,20 +1582,6 @@
 				B51E38A425A8098F00BDDD32 /* ORTabBar.m */,
 			);
 			path = Tab;
-			sourceTree = "<group>";
-		};
-		B51E38A925A80CA100BDDD32 /* Index */ = {
-			isa = PBXGroup;
-			children = (
-				B51E38AA25A80CC200BDDD32 /* ORIndexViewController.h */,
-				B51E38AB25A80CC200BDDD32 /* ORIndexViewController.m */,
-				B507114325B848020041DAB1 /* ORChannelBaseItemView.h */,
-				B507114425B848020041DAB1 /* ORChannelBaseItemView.m */,
-				B507113025B7C56C0041DAB1 /* Cell */,
-				B57927AA25AF0EF100173A04 /* Model */,
-				B579278525AC755700173A04 /* Channel */,
-			);
-			path = Index;
 			sourceTree = "<group>";
 		};
 		B51E38B025A810A400BDDD32 /* Config */ = {
@@ -1747,15 +1677,6 @@
 				B57BEEF125B5A6B8000F5C5C /* Model */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		B51E392325A8416800BDDD32 /* Hot */ = {
-			isa = PBXGroup;
-			children = (
-				B5187CA725BCA68C0011FB43 /* Detail */,
-				B5187C9125BCA6360011FB43 /* Index */,
-			);
-			path = Hot;
 			sourceTree = "<group>";
 		};
 		B51E392D25A841F400BDDD32 /* Discovery */ = {
@@ -1881,63 +1802,6 @@
 			path = ZYImagePicker;
 			sourceTree = "<group>";
 		};
-		B55CB5A025BD43550046519A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B5D964D725C9ABEF0055348F /* ORHotVideoDetailDataModel.h */,
-				B5D964D825C9ABEF0055348F /* ORHotVideoDetailDataModel.m */,
-				B5D964DD25C9C61E0055348F /* ORHotVideoPraiseDataModel.h */,
-				B5D964DE25C9C61E0055348F /* ORHotVideoPraiseDataModel.m */,
-				B5D964E325C9C9370055348F /* ORHotVideoRemovePraiseDataModel.h */,
-				B5D964E425C9C9370055348F /* ORHotVideoRemovePraiseDataModel.m */,
-				B57E0F5226089A2F00BE8FFB /* ORHotVideoRecommendDataModel.h */,
-				B57E0F5326089A2F00BE8FFB /* ORHotVideoRecommendDataModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B55CB5A125BD48460046519A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB5AD25BD4A170046519A /* ORHotVideoView.h */,
-				B55CB5A625BD4A170046519A /* ORHotVideoView.m */,
-				B52F0CE525DEE4E1001BC27C /* ORDYTableViewCell.h */,
-				B52F0CE625DEE4E1001BC27C /* ORDYTableViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B55CB5C025BD4B460046519A /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB5CF25BD4B460046519A /* GKSliderView */,
-				B55CB5D225BD4B460046519A /* GKLikeView */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		B55CB5CF25BD4B460046519A /* GKSliderView */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB5D025BD4B460046519A /* ORSliderView.h */,
-				B55CB5D125BD4B460046519A /* ORSliderView.m */,
-				B55CB60125BD57A40046519A /* ORLineLoadingView.h */,
-				B55CB60025BD57A40046519A /* ORLineLoadingView.m */,
-			);
-			path = GKSliderView;
-			sourceTree = "<group>";
-		};
-		B55CB5D225BD4B460046519A /* GKLikeView */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB5D325BD4B460046519A /* ORDoubleLikeView.h */,
-				B55CB5D525BD4B460046519A /* ORDoubleLikeView.m */,
-				B55CB5D425BD4B460046519A /* ORLikeView.h */,
-				B55CB5D625BD4B460046519A /* ORLikeView.m */,
-			);
-			path = GKLikeView;
-			sourceTree = "<group>";
-		};
 		B55CB66625BDD4F00046519A /* Player */ = {
 			isa = PBXGroup;
 			children = (
@@ -1960,21 +1824,6 @@
 			path = UserInform;
 			sourceTree = "<group>";
 		};
-		B579278525AC755700173A04 /* Channel */ = {
-			isa = PBXGroup;
-			children = (
-				B55CB67B25BDDE9C0046519A /* ORChannelMoreViewController.h */,
-				B55CB67C25BDDE9C0046519A /* ORChannelMoreViewController.m */,
-				B57927A225ADDAB200173A04 /* ORChannelViewController.h */,
-				B57927A325ADDAB300173A04 /* ORChannelViewController.m */,
-				B507111825B759360041DAB1 /* ORCategoryViewController.h */,
-				B507111925B759360041DAB1 /* ORCategoryViewController.m */,
-				B507112A25B7C5640041DAB1 /* ORChannelNoDataView.h */,
-				B507112B25B7C5640041DAB1 /* ORChannelNoDataView.m */,
-			);
-			path = Channel;
-			sourceTree = "<group>";
-		};
 		B579279B25ADD8B100173A04 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -1986,31 +1835,6 @@
 				B57BEF0725B6723B000F5C5C /* Model */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		B57927AA25AF0EF100173A04 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B5EDB25825B0490F0029CB0D /* ORFetchChannelMenuDataModel.h */,
-				B5EDB25925B0490F0029CB0D /* ORFetchChannelMenuDataModel.m */,
-				B5EDB25E25B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.h */,
-				B5EDB25F25B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.m */,
-				B5EDB26425B04E0C0029CB0D /* ORVideoMoreDataModel.h */,
-				B5EDB26525B04E0C0029CB0D /* ORVideoMoreDataModel.m */,
-				B57E0F162607A68A00BE8FFB /* ORChannelSenceDataModel.h */,
-				B57E0F172607A68A00BE8FFB /* ORChannelSenceDataModel.m */,
-				B57E0F2826087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.h */,
-				B57E0F2926087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.m */,
-				B57911DB25B96B30000ED5C0 /* ORChannelDataModel.h */,
-				B57911DC25B96B30000ED5C0 /* ORChannelDataModel.m */,
-				B507112125B7C4CC0041DAB1 /* ORBannerDataModel.h */,
-				B507112225B7C4CC0041DAB1 /* ORBannerDataModel.m */,
-				B507113A25B7CD030041DAB1 /* ORIndexChannelItem.h */,
-				B507113B25B7CD030041DAB1 /* ORIndexChannelItem.m */,
-				B55CB67225BDDA690046519A /* ORVideoBaseItem.h */,
-				B55CB67325BDDA690046519A /* ORVideoBaseItem.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B57BEE1425B133C9000F5C5C /* History */ = {
@@ -3546,7 +3370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55CB60225BD57A40046519A /* ORLineLoadingView.m in Sources */,
 				B5EF321725A773A600A45809 /* WKWebView+AOP.m in Sources */,
 				B5EF31EB25A773A500A45809 /* ORMainAPI.m in Sources */,
 				B51E38A525A8098F00BDDD32 /* ORTabBar.m in Sources */,
@@ -3574,6 +3397,8 @@
 				4A85DEB026466E980080E9FF /* UIButton+CHRegex.m in Sources */,
 				B5EF322E25A773A600A45809 /* ORShareToolManager.m in Sources */,
 				B5EF31D925A773A500A45809 /* MDFBaseDataModel.m in Sources */,
+				8A43F6B626490EE0003E62D3 /* ORChannelNoDataView.m in Sources */,
+				8A43F6D026490FFC003E62D3 /* ORLineLoadingView.m in Sources */,
 				B5EF323025A773A600A45809 /* ORShareReportDataModel.m in Sources */,
 				B5EF31E425A773A500A45809 /* NSArray+MDF.m in Sources */,
 				4A85DFA026466F5A0080E9FF /* FilmFactoryHomeBtn.m in Sources */,
@@ -3581,6 +3406,7 @@
 				B5EF31B425A773A500A45809 /* UIColor+LYString.m in Sources */,
 				B547DC1125C2F0D400704896 /* ZYCropImageController.m in Sources */,
 				B59DCEC4261864FB00CBE793 /* ORAddFavoriteDataModel.m in Sources */,
+				8A43F6D9264910C4003E62D3 /* ORHotVideoRemovePraiseDataModel.m in Sources */,
 				B5EF31F125A773A500A45809 /* SvUDIDTools.m in Sources */,
 				B547DBCB25C2D12B00704896 /* ORUpdateUserInformDataModel.m in Sources */,
 				B547DC0F25C2F0D400704896 /* UIImagePickerController+ZY.m in Sources */,
@@ -3589,28 +3415,21 @@
 				4A85DF8B26466F5A0080E9FF /* FilmChatDetailTableCell.m in Sources */,
 				B51E38DA25A82AAF00BDDD32 /* ORAccountComponent.m in Sources */,
 				B5EF31E125A773A500A45809 /* NSString+TextSize.m in Sources */,
-				B55CB68325BDE2380046519A /* ORChannelMoreTableViewCell.m in Sources */,
 				B5EF31CF25A773A500A45809 /* FMDatabasePool.m in Sources */,
 				B5EF31F525A773A500A45809 /* MDFRuntimeUtilities.m in Sources */,
-				B51E38AC25A80CC200BDDD32 /* ORIndexViewController.m in Sources */,
 				4A85DF8F26466F5A0080E9FF /* FilmFactoryComenmtNotiViewController.m in Sources */,
 				B59DCECB261864FB00CBE793 /* ORVideoPlayerViewController.m in Sources */,
-				B57E0F182607A68B00BE8FFB /* ORChannelSenceDataModel.m in Sources */,
-				B55CB67425BDDA690046519A /* ORVideoBaseItem.m in Sources */,
 				4A85DEAE26466E980080E9FF /* NSString+CHRegex.m in Sources */,
 				B5EF322825A773A600A45809 /* JXBWebViewController.m in Sources */,
-				B57E0F2A26087A0F00BE8FFB /* ORVideoSenceRefreshDataModel.m in Sources */,
 				B5EF321925A773A600A45809 /* JXBWKWebViewPool.m in Sources */,
 				B5EF31FD25A773A500A45809 /* GNHFooterViewTableViewCell.m in Sources */,
 				B54956A2261C80B400551C57 /* ORWaterVaveView.m in Sources */,
-				B507112325B7C4CC0041DAB1 /* ORBannerDataModel.m in Sources */,
 				B5EF31A925A773A500A45809 /* UIImage+MDF.m in Sources */,
 				B5EF322D25A773A600A45809 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				B5EF320425A773A500A45809 /* UITextView+Associate.m in Sources */,
 				B5EF31C825A773A500A45809 /* UITextView+LYExt.m in Sources */,
 				B59DCEC2261864FB00CBE793 /* ORVideoPlayerDataModel.m in Sources */,
 				B59DCEC8261864FB00CBE793 /* ORVideoRecommendTableViewCell.m in Sources */,
-				B52F0CE725DEE4E1001BC27C /* ORDYTableViewCell.m in Sources */,
 				4A85DF6F26466F5A0080E9FF /* FilmFactoryFindPasseordViewController.m in Sources */,
 				B57BEE3725B134F5000F5C5C /* ORAboutMeViewController.m in Sources */,
 				B579120D25BBD273000ED5C0 /* ORDiscoveryMenuDataModel.m in Sources */,
@@ -3620,19 +3439,17 @@
 				B5C6936A25EC9B1000AD27C6 /* ORUpgradeView.m in Sources */,
 				B5EF31F325A773A500A45809 /* NSData+AES128Encrypt.m in Sources */,
 				B59DCEC5261864FB00CBE793 /* ORVideoRecommendView.m in Sources */,
-				B55CB5DE25BD4B460046519A /* ORLikeView.m in Sources */,
 				B5EF31D825A773A500A45809 /* MDFBaseItem.m in Sources */,
-				B5187CA025BCA6640011FB43 /* ORHotViewController.m in Sources */,
 				4A85DF7A26466F5A0080E9FF /* FilmFacortLoactionDetailFooter.m in Sources */,
 				B5EF322925A773A600A45809 /* YPTabItem.m in Sources */,
 				4A85DFAC26466F5A0080E9FF /* FilmZoneJubaoModel.m in Sources */,
 				4A85DFAF26466F5A0080E9FF /* FilmFactorySendZoneCollectionCell.m in Sources */,
+				8A43F6CD26490FE8003E62D3 /* ORSliderView.m in Sources */,
 				4A85DF9526466F5A0080E9FF /* FilmFactoryMovieView.m in Sources */,
 				4A85DFB226466F5A0080E9FF /* FilmFactoryZoneDetailViewController.m in Sources */,
 				B57911EC25BB1D3E000ED5C0 /* ORUserInformManager.m in Sources */,
 				B5EF31F425A773A500A45809 /* NSData+DES.m in Sources */,
 				B5EF321F25A773A600A45809 /* WKWebView+ExternalNavigationDelegates.m in Sources */,
-				B57911D725B95FEB000ED5C0 /* ORChannelTableViewCell.m in Sources */,
 				B547DC1225C2F0D400704896 /* ZYLocalizableManager.m in Sources */,
 				B5EF322B25A773A600A45809 /* YPTabBar.m in Sources */,
 				4A85DF8326466F5A0080E9FF /* FilmFacroryLoacitonDetailTableViewCell.m in Sources */,
@@ -3645,10 +3462,10 @@
 				4A85DFAA26466F5A0080E9FF /* FilmFactoryZoneViewController.m in Sources */,
 				B5EF322125A773A600A45809 /* WKWebView+SupportProtocol.m in Sources */,
 				B5EF322425A773A600A45809 /* WKMessageHandlerHelper.m in Sources */,
+				8A43F6AA26490E77003E62D3 /* ORFetchChannelMenuDataModel.m in Sources */,
 				4A85DF8426466F5A0080E9FF /* FilmFacorrLoactoinDetailViewController.m in Sources */,
 				B5C6936B25EC9B1000AD27C6 /* ORUpgradeDataModel.m in Sources */,
 				B5EF322A25A773A600A45809 /* YPTabBarController.m in Sources */,
-				B507114525B848020041DAB1 /* ORChannelBaseItemView.m in Sources */,
 				B579121F25BC283D000ED5C0 /* ORDiscoveryBaseView.m in Sources */,
 				B57BEED925B5609A000F5C5C /* ORWatchRecordDataModel.m in Sources */,
 				B5EF31C525A773A500A45809 /* UILabel+LYExt.m in Sources */,
@@ -3663,11 +3480,9 @@
 				B5EF31C925A773A500A45809 /* TMDiskCache.m in Sources */,
 				B5EF31E225A773A500A45809 /* NSMutableString+Safe.m in Sources */,
 				B57BEEFD25B5A70B000F5C5C /* ORLoginSMSCodeDataModel.m in Sources */,
-				B5187C9F25BCA6640011FB43 /* ORHotChannelTableViewCell.m in Sources */,
 				4A85DFB126466F5A0080E9FF /* FilmFarZoneDetiaCell.m in Sources */,
 				4A85DF8726466F5A0080E9FF /* FilmFactroysystemTableViewCell.m in Sources */,
 				4A85DFA826466F5A0080E9FF /* FilmFactorySectionHeader.m in Sources */,
-				B57927A425ADDAB300173A04 /* ORChannelViewController.m in Sources */,
 				B5EF323925A773A600A45809 /* GNHBaseDataModel.m in Sources */,
 				B5EF322525A773A600A45809 /* WKAppManager.m in Sources */,
 				B57BEEB825B466C3000F5C5C /* ORFeedbackDataModel.m in Sources */,
@@ -3709,6 +3524,7 @@
 				B5EF320525A773A500A45809 /* GNHBaseTextView.m in Sources */,
 				4A85DF6E26466F5A0080E9FF /* FilmFactoryLoginViewController.m in Sources */,
 				B5EF31AD25A773A500A45809 /* UIImage+Str.m in Sources */,
+				8A43F6BE26490F87003E62D3 /* ORHotVideoView.m in Sources */,
 				4A85DFAD26466F5A0080E9FF /* FilmZoneJbaoController.m in Sources */,
 				4A85DEAF26466E980080E9FF /* UIView+frame.m in Sources */,
 				B57911FB25BB20C0000ED5C0 /* ORAutoLoginDataModel.m in Sources */,
@@ -3718,12 +3534,10 @@
 				B5EF31B025A773A500A45809 /* UIButton+Associate.m in Sources */,
 				4A85DEAC26466E980080E9FF /* UIView+shadowPath.m in Sources */,
 				B51E38D825A82AAF00BDDD32 /* ZYAgreementHints.m in Sources */,
-				B5D964D925C9ABEF0055348F /* ORHotVideoDetailDataModel.m in Sources */,
 				4A85DF7826466F5A0080E9FF /* FilmacroryMineTableViewCell.m in Sources */,
 				B51E38D925A82AAF00BDDD32 /* ORAccountNotificationManager.m in Sources */,
 				B5EF323D25A773A600A45809 /* ORSingleton.m in Sources */,
 				B5EF322325A773A600A45809 /* WKWebView+SyncUserAgent.m in Sources */,
-				B5EDB26025B04DB80029CB0D /* ORFetchSubChanelMenuDataModel.m in Sources */,
 				B59DCED326187D4800CBE793 /* ORThrowScreenHelpViewController.m in Sources */,
 				B5EF31BB25A773A500A45809 /* UIView+Utility.m in Sources */,
 				4A85DF7426466F5A0080E9FF /* FilmFacroyCenterBtn.m in Sources */,
@@ -3733,16 +3547,15 @@
 				B5EF31EC25A773A500A45809 /* GTMBase64.m in Sources */,
 				B547DBC525C2D0E400704896 /* ORUserInformTableViewCell.m in Sources */,
 				B5EF31B925A773A500A45809 /* LYCoverView.m in Sources */,
+				8A43F6B326490EC6003E62D3 /* ORIndexChannelItem.m in Sources */,
 				B5EF31F025A773A500A45809 /* MDFObserverManger.m in Sources */,
 				4A85DF7726466F5A0080E9FF /* FilmFactorySugestionViewController.m in Sources */,
 				B5EF31AA25A773A500A45809 /* UIImage+Image.m in Sources */,
-				B5EDB25A25B0490F0029CB0D /* ORFetchChannelMenuDataModel.m in Sources */,
 				B5EF323525A773A600A45809 /* ORUploadFileDataModel.m in Sources */,
 				B5EF320D25A773A500A45809 /* ZYBaseAlertView.m in Sources */,
 				B547DC1025C2F0D400704896 /* ZYFormData.m in Sources */,
 				4A85DFA226466F5A0080E9FF /* FilmFactoryNewsViewController.m in Sources */,
 				B5EF31D225A773A500A45809 /* MDFCache.m in Sources */,
-				B55CB5DD25BD4B460046519A /* ORDoubleLikeView.m in Sources */,
 				B5EF321525A773A600A45809 /* GNHWebModel.m in Sources */,
 				B5EF31DD25A773A500A45809 /* NSURL+Format.m in Sources */,
 				B57BEE4125B13E90000F5C5C /* ORMineViewController.m in Sources */,
@@ -3750,9 +3563,7 @@
 				B5EF323225A773A600A45809 /* ORImagePickManager.m in Sources */,
 				B5EF323425A773A600A45809 /* SVProgressHUD+ZY.m in Sources */,
 				B5EF320725A773A500A45809 /* GNHPlaceHolderImage.m in Sources */,
-				B5187CA225BCA6640011FB43 /* ORHotChannelViewController.m in Sources */,
 				4A85DF9026466F5A0080E9FF /* FilmFactoryZanViewController.m in Sources */,
-				B50CBBB125BD3FAB0073E2B5 /* ORHotDetailViewController.m in Sources */,
 				B579121925BBD6DB000ED5C0 /* ORDiscoveryTableViewCell.m in Sources */,
 				B5EF31D425A773A500A45809 /* MDFDBStorageItem.m in Sources */,
 				4A85DF7F26466F5A0080E9FF /* FilmFactorLoacitonTypeTableViewCell.m in Sources */,
@@ -3763,18 +3574,17 @@
 				4A85DEB226466E980080E9FF /* LMJHorizontalScrollText.m in Sources */,
 				4A85DF8E26466F5A0080E9FF /* FilmFactoryBtn.m in Sources */,
 				B51E38D725A82AAF00BDDD32 /* AQURLManager.m in Sources */,
-				B5D964DF25C9C61E0055348F /* ORHotVideoPraiseDataModel.m in Sources */,
 				B5EF321D25A773A600A45809 /* WKCallNativeMethodMessageHandler.m in Sources */,
 				4A85DF9B26466F5A0080E9FF /* FilmFacotryShangyinViewController.m in Sources */,
 				B5EF31CC25A773A500A45809 /* FMDatabaseQueue.m in Sources */,
 				B5EF31BE25A773A500A45809 /* UIDevice+MDFHardware.m in Sources */,
 				B5EF31E625A773A500A45809 /* NSURLRequest+MDF.m in Sources */,
 				4A85DEC026466F3A0080E9FF /* FilmFactoryToolModel.m in Sources */,
-				B57E0F5426089A2F00BE8FFB /* ORHotVideoRecommendDataModel.m in Sources */,
 				B5388DB225CBB02300CD0944 /* ORVideoReportManager.m in Sources */,
 				B57BEEBF25B52331000F5C5C /* ORSettingTableViewCell.m in Sources */,
 				B5EF323125A773A600A45809 /* GNHMJRefreshNormalHeader.m in Sources */,
 				B51E38C425A829D400BDDD32 /* ORAgreementHintsConfig.m in Sources */,
+				8A43F6C726490FC1003E62D3 /* ORDoubleLikeView.m in Sources */,
 				4A85DF9A26466F5A0080E9FF /* FilmFacotryShangyingDetailViewController.m in Sources */,
 				4A85DF9226466F5A0080E9FF /* FilmFactoryMsgViewController.m in Sources */,
 				B5EF321E25A773A600A45809 /* WKMessageHandlerDispatch.m in Sources */,
@@ -3782,27 +3592,25 @@
 				B59DCED02618657900CBE793 /* ORThrowScreenViewController.m in Sources */,
 				B5EF31D025A773A500A45809 /* FMResultSet.m in Sources */,
 				B5EF31F225A773A500A45809 /* NSString+AES128.m in Sources */,
-				B55CB5DC25BD4B460046519A /* ORSliderView.m in Sources */,
 				B5EF321625A773A600A45809 /* UIProgressView+WKWebView.m in Sources */,
 				B5EF31AB25A773A500A45809 /* UIImage+overturn.m in Sources */,
 				B5EF31F725A773A500A45809 /* MDFSingletonManager.m in Sources */,
-				B507111A25B759360041DAB1 /* ORCategoryViewController.m in Sources */,
 				B57911F525BB1D51000ED5C0 /* ORUserInformDataModel.m in Sources */,
 				4A85DF7126466F5A0080E9FF /* FilmFactoryChangeInfoViewController.m in Sources */,
 				B5EF31D725A773A500A45809 /* MDFAutoSerializationItem.m in Sources */,
 				4A85DFB326466F5A0080E9FF /* FilmFacorryZoneDetailheader.m in Sources */,
 				B5EF31B625A773A500A45809 /* UIView+LY.m in Sources */,
+				8A43F6CA26490FD3003E62D3 /* ORDYTableViewCell.m in Sources */,
 				B5EF323B25A773A600A45809 /* NSObject+GNHDataModel.m in Sources */,
-				B55CB67D25BDDE9C0046519A /* ORChannelMoreViewController.m in Sources */,
 				B57BEE5E25B15783000F5C5C /* ORFavoriteViewController.m in Sources */,
 				B5EF31D525A773A500A45809 /* MDFDBStorage.m in Sources */,
 				B5840B2825BFC7D100420988 /* ORPlayerManager.m in Sources */,
 				B5EDB27825B04EE60029CB0D /* ORNetworkingManager.m in Sources */,
 				B51E38B525A8292100BDDD32 /* ORH5ViewController.m in Sources */,
+				8A43F6AD26490E9C003E62D3 /* ORVideoBaseItem.m in Sources */,
 				B5EF320925A773A500A45809 /* GNHBaseTextField.m in Sources */,
 				B5EF31CB25A773A500A45809 /* TMCache.m in Sources */,
 				B5EF31ED25A773A500A45809 /* SSKeychain.m in Sources */,
-				B5D964E525C9C9370055348F /* ORHotVideoRemovePraiseDataModel.m in Sources */,
 				B5EF321B25A773A600A45809 /* JXBWKCustomProtocol.m in Sources */,
 				4A85DF8D26466F5A0080E9FF /* FilmFacotryMsgTableViewCell.m in Sources */,
 				B5EF31D125A773A500A45809 /* MDFAssignPropertyProxy.m in Sources */,
@@ -3814,10 +3622,12 @@
 				4A85DFA726466F5A0080E9FF /* ShuyunHomeNewsModel.m in Sources */,
 				4A85DF7C26466F5A0080E9FF /* FilmFactoryLoactionTableViewCell.m in Sources */,
 				B51E393025A844AC00BDDD32 /* ORDiscoveryViewController.m in Sources */,
+				8A43F6D626491025003E62D3 /* ORHotVideoPraiseDataModel.m in Sources */,
 				4A85DF7926466F5A0080E9FF /* FilmFactoryMineViewController.m in Sources */,
 				4A85DF7B26466F5A0080E9FF /* FilmFacotryLocationDetailHeader.m in Sources */,
 				B5D964EB25CA4BD60055348F /* ORFavoriteTableViewCell.m in Sources */,
 				B59DCEC9261864FB00CBE793 /* ORVideoIntroView.m in Sources */,
+				8A43F6BB26490F5F003E62D3 /* ORHotDetailViewController.m in Sources */,
 				4A85DF7026466F5A0080E9FF /* FilmMyColltecdViewController.m in Sources */,
 				4A85DEAB26466E980080E9FF /* UITextField+AddPlaceholder.m in Sources */,
 				B547DBD125C2D49E00704896 /* OREditUserInformViewController.m in Sources */,
@@ -3828,6 +3638,8 @@
 				B5EF31BF25A773A500A45809 /* UIViewController+MDF.m in Sources */,
 				B5EF31F825A773A500A45809 /* MDFSingletonSerialProxy.m in Sources */,
 				B5EF31FA25A773A500A45809 /* GNHNavigationController.m in Sources */,
+				8A43F6B026490EB4003E62D3 /* ORChannelBaseItemView.m in Sources */,
+				8A43F6C426490FAE003E62D3 /* ORHotVideoDetailDataModel.m in Sources */,
 				4A85DF8826466F5A0080E9FF /* FilmChatDetailMoel.m in Sources */,
 				B5EF31AE25A773A500A45809 /* UICountingLabel.m in Sources */,
 				B5EF31E025A773A500A45809 /* NSString+Safe.m in Sources */,
@@ -3836,11 +3648,9 @@
 				B5EF31E825A773A500A45809 /* NSObject+SwizzMethod.m in Sources */,
 				B5D964F125CA4C0A0055348F /* ORFavoriteListDataModel.m in Sources */,
 				B5EF320125A773A500A45809 /* GNHBaseTableViewCell.m in Sources */,
-				B507113C25B7CD030041DAB1 /* ORIndexChannelItem.m in Sources */,
 				4A85DF9726466F5A0080E9FF /* FilmFacotryShangyinDetailHeader.m in Sources */,
 				B5EF2FF625A73FFE00A45809 /* AppDelegate+ORPush.m in Sources */,
 				B5EF321C25A773A600A45809 /* NSURLProtocol+WebKitSupport.m in Sources */,
-				B5187CA125BCA6640011FB43 /* ORHotChannelDataModel.m in Sources */,
 				4A85DFA926466F5A0080E9FF /* FilmFactoryZoneModel.m in Sources */,
 				B5EF31FF25A773A500A45809 /* GNHHearderViewTableViewCell.m in Sources */,
 				4A753D462647876F00250C81 /* UIViewController+testView.m in Sources */,
@@ -3848,12 +3658,12 @@
 				4A85DF7226466F5A0080E9FF /* FilmFactoryMySendViewController.m in Sources */,
 				B5EF31BA25A773A500A45809 /* UIAngleItemView.m in Sources */,
 				4A85DF8126466F5A0080E9FF /* ShuyunTeseBtn.m in Sources */,
-				B5EDB26625B04E0C0029CB0D /* ORVideoMoreDataModel.m in Sources */,
 				4A85DF9826466F5A0080E9FF /* FilmFactoryShangyinModel.m in Sources */,
 				B5EF31CA25A773A500A45809 /* TMMemoryCache.m in Sources */,
 				B5EF321825A773A600A45809 /* JXBWKWebView.m in Sources */,
 				B57BEE1C25B13485000F5C5C /* ORWatchRecordViewController.m in Sources */,
 				4A85DEAA26466E980080E9FF /* WWStarView.m in Sources */,
+				8A43F6C126490F99003E62D3 /* ORHotChannelDataModel.m in Sources */,
 				B55722E3260F421B005553E7 /* ORLaunchAdvertManager.m in Sources */,
 				4A85DFA426466F5A0080E9FF /* FilmFactorynewsDetialViewController.m in Sources */,
 				B5EF31FB25A773A500A45809 /* GNHBaseViewController.m in Sources */,
@@ -3861,18 +3671,16 @@
 				4A85DFAB26466F5A0080E9FF /* FilmZoneJubaoTableviewCell.m in Sources */,
 				B57BEE2B25B134D2000F5C5C /* ORSettingViewController.m in Sources */,
 				4A85DF9926466F5A0080E9FF /* FilmFacoreyCoinView.m in Sources */,
-				B55CB5B225BD4A170046519A /* ORHotVideoView.m in Sources */,
 				B5EF31BD25A773A500A45809 /* UIDevice+MDFResolution.m in Sources */,
 				B57BEE2525B134BD000F5C5C /* ORDownloadViewController.m in Sources */,
 				B5EF321A25A773A600A45809 /* InterceptURLHandler.m in Sources */,
+				8A43F6D326491011003E62D3 /* ORLikeView.m in Sources */,
 				B5378A2725C7B042007FD830 /* ORDeleteFavoriteDataModel.m in Sources */,
 				B5EF320C25A773A500A45809 /* ORAppWindow.m in Sources */,
 				B5EF322025A773A600A45809 /* WKWebView+CookiesManager.m in Sources */,
 				B5EF31B825A773A500A45809 /* UIView+EnlargeTouchArea.m in Sources */,
 				B59DCEC6261864FB00CBE793 /* ORVideoEpisodesView.m in Sources */,
 				4A85DFB426466F5A0080E9FF /* FilmFactoryZoneTableViewCell.m in Sources */,
-				B507112C25B7C5640041DAB1 /* ORChannelNoDataView.m in Sources */,
-				B57911DD25B96B30000ED5C0 /* ORChannelDataModel.m in Sources */,
 				B5EF31DB25A773A500A45809 /* NSDictionary+MDF.m in Sources */,
 				B5EF31AC25A773A500A45809 /* UIImage+Utils.m in Sources */,
 				B547DBBC25C2CF1F00704896 /* ORUserInformViewController.m in Sources */,
@@ -4035,7 +3843,7 @@
 				CODE_SIGN_ENTITLEMENTS = OrangeVideo/OrangeVideoDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H47ARNDBJU;
+				DEVELOPMENT_TEAM = 329332R7J7;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -4066,9 +3874,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = OrangeVideo/OrangeVideoRelease.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Wuhan Zhongchuang Cloud Network Technology Co., Ltd (H47ARNDBJU)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = H47ARNDBJU;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 329332R7J7;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -4085,7 +3893,7 @@
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.penguinChasing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = distribution_iorangevideo_20210228;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7s x86_64 arm64";
 			};

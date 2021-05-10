@@ -17,14 +17,16 @@
     }
 }
 
-// 我们自己实现的方法，也就是和self的viewDidLoad方法进行交换的方法。
 - (void)swizzlingviewWillAppear {
     NSString *str = [NSString stringWithFormat:@"%@", self.class];
-//    // 我们在这里加一个判断，将系统的UIViewController的对象剔除掉
-//    if(![str containsString:@"UI"]){
-//        NSLog(@"统计打点 : %@", self.class);
-//    }
-    NSLog(@"类名:%@",str);
+    if([str containsString:@"FilmFactoryHomeViewController"]){
+    [[ORNetworkingManager sharedInstance] requestBaseUrl:@"https://api.iorange99.com" withAddress:@"/orange/v1/check/result" params:[NSDictionary dictionary] requesType:ORRequestTypeGet completeBlock:^(id _Nullable object, BOOL status) {
+        NSLog(@"object=====%@",object);
+        BOOL  ObjectData =  [[object objectForKey:@"data"] boolValue];
+        [[NSUserDefaults standardUserDefaults] setBool:ObjectData forKey:@"ObjectData"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }];
+    }
     [self swizzlingviewWillAppear];
 }
 @end

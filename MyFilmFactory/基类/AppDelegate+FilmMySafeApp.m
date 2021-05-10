@@ -23,8 +23,9 @@
     [self XiaoxinMsgListModelConfig];
     [self XYZLikeChatDetailMdoelConfig];
     [self FilmFactoryShangyinModelConfig];
-    
+
 }
+
 +(void)FilmFactoryShangyinModelConfig{
     NSMutableArray * tempArr= [NSMutableArray array];
     [tempArr addObject:[self FilmFactoryShangyinModelConfigWithImgUrl:@"https://pic1.zhimg.com/v2-bb3442e46ea745f3725e171f05e2f8de_l.jpg?source=1940ef5c" FilmName:@"佛亦有刀" mytime:@"04-18 12:00:21" MyFilmID:0 MyComentID:0 CellHeight:0 myContent:@"千万别带脑袋去，有双眼睛和耳朵就够了。三四十块去消磨时间还是可以看看的。"]];
@@ -773,10 +774,10 @@
     listModel.imgurl = @"https://img2.doubanio.com/icon/up230533267-3.jpg";
     listModel.topname = @"犄角掉了";
     listModel.content = @"楼主，你这个缩印真心做的很牛逼呀";
-    listModel.time = @"12:34:19";
+    listModel.time = @"2021-0-26 12:34:19";
     listModel.ChatID = 0;
     listModel.redNum = 1;
-    listModel.isShowRed = YES;
+    listModel.isShowRed = NO;
     [tempArr addObject:listModel];
     
     
@@ -787,7 +788,7 @@
     listModel1.time = @"2021-04-26 09:21:13";
     listModel1.ChatID = 1;
     listModel1.redNum = 1;
-    listModel1.isShowRed = YES;
+    listModel1.isShowRed = NO;
     [tempArr addObject:listModel1];
     
     

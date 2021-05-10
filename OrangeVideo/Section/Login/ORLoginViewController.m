@@ -140,7 +140,7 @@
     codeTextField.textColor = gnh_color_a;
     codeTextField.delegate = self;
     codeTextField.font = zy_fontSize15;
-    codeTextField.keyboardType = UIKeyboardTypeNumberPad;
+    codeTextField.keyboardType = UIKeyboardTypeDefault;
     NSAttributedString *attrCode = [[NSAttributedString alloc]initWithString:@"请输入短信验证码" attributes:@{NSFontAttributeName:zy_mediumSystemFont16,NSForegroundColorAttributeName:RGBA_HexCOLOR(0xC4C6CD, 1.0)}];
     [codeTextField setAttributedPlaceholder:attrCode];
     [codeTextField addTarget:self action:@selector(textFieldChangeAction:) forControlEvents:UIControlEventEditingChanged];
@@ -267,7 +267,7 @@
     smsCodePlaceHolder = @"请输入验证码";
     
     self.phoneTextField.keyboardType = UIKeyboardTypeNumberPad;
-    self.codeTextField.keyboardType = UIKeyboardTypeNumberPad;
+    self.codeTextField.keyboardType = UIKeyboardTypeDefault;
     self.codeTextField.secureTextEntry = NO;
     
     NSAttributedString *attrCode = [[NSAttributedString alloc]initWithString:smsCodePlaceHolder attributes:@{NSFontAttributeName:zy_fontSize15,NSForegroundColorAttributeName:RGBA_HexCOLOR(0xA0A0A0, 1.0)}];
@@ -296,6 +296,7 @@
         [SVProgressHUD showInfoWithStatus:@"请输入合法的手机号"];
         return;
     }
+    
     
     if (![self checkSMSCodeState]) {
         [SVProgressHUD showInfoWithStatus:@"请输入正确的验证码"];
@@ -358,9 +359,14 @@
 }
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
-    NSString *toBeString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    if (textField == self.phoneTextField) {
+        NSString *toBeString = [textField.text stringByReplacingCharactersInRange:range withString:string];
 
-    return [toBeString isEqualToString:@""] || [self isNumberWithText:toBeString];
+        return [toBeString isEqualToString:@""] || [self isNumberWithText:toBeString];
+    }else{
+        return YES;
+    }
+
 }
 
 - (BOOL)isNumberWithText:(NSString *)text

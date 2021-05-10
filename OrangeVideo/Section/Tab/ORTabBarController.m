@@ -9,8 +9,6 @@
 #import "ORTabBar.h"
 #import "GNHNavigationController.h"
 #import "ORUMConfig.h"
-#import "ORIndexViewController.h"
-#import "ORHotViewController.h"
 #import "ORDiscoveryViewController.h"
 #import "ORMineViewController.h"
 #import "ORLoginViewController.h"

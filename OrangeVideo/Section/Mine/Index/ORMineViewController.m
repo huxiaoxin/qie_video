@@ -17,6 +17,7 @@
 #import "ORUserInformViewController.h"
 #import "ORShareTool.h"
 #import "FilmMyColltecdViewController.h"
+#import "FilmMyYuyueViewController.h"
 @interface ORMineViewController () <ORAccountObserver>
 
 @property (nonatomic, strong) ORUserInformItem *userInfoItem;
@@ -201,7 +202,7 @@
     
     // 播放历史
     UIButton *playHistoryButton = [UIButton ly_ButtonWithNormalImageName:@"mine_watchRecord" selecteImageName:@"mine_watchRecord" target:self selector:@selector(watchHistoryAction:)];
-    [playHistoryButton setTitle:@"浏览历史" forState:UIControlStateNormal];
+    [playHistoryButton setTitle:[[ORNetworkingManager sharedInstance] OssSet] ? @"浏览历史" : @"播放历史" forState:UIControlStateNormal];
     [playHistoryButton setTitleColor:gnh_color_a forState:UIControlStateNormal];
     playHistoryButton.titleLabel.font = zy_mediumSystemFont13;
     playHistoryButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;//使图片和文字水平居中显示
@@ -230,7 +231,7 @@
     
     // 我的下载
     UIButton *downloadButton = [UIButton ly_ButtonWithNormalImageName:@"mine_download" selecteImageName:@"mine_download" target:self selector:@selector(downloadAction:)];
-    [downloadButton setTitle:@"我的发布" forState:UIControlStateNormal];
+    [downloadButton setTitle:[[ORNetworkingManager sharedInstance] OssSet] ? @"我的发布" : @"我的下载" forState:UIControlStateNormal];
     [downloadButton setTitleColor:gnh_color_a forState:UIControlStateNormal];
     downloadButton.titleLabel.font = zy_mediumSystemFont13;
     downloadButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;//使图片和文字水平居中显示
@@ -320,24 +321,52 @@
 
 - (void)watchHistoryAction:(UIButton *)btn
 {
-    ORWatchRecordViewController *watchRecordVC = [[ORWatchRecordViewController alloc] init];
-    [self.navigationController pushViewController:watchRecordVC animated:YES];
+    
+    if ([ORAccountComponent checkLogin:YES]) {
+        if ([[ORNetworkingManager sharedInstance] OssSet]) {
+            FilmMyYuyueViewController * lyFIm = [[FilmMyYuyueViewController alloc]init];
+            
+            [self.navigationController pushViewController:lyFIm animated:YES];
+        }else{
+            ORWatchRecordViewController *watchRecordVC = [[ORWatchRecordViewController alloc] init];
+            [self.navigationController pushViewController:watchRecordVC animated:YES];
+        }
+    }
+
 }
 
 - (void)collectAction:(UIButton *)btn
 {
     if ([ORAccountComponent checkLogin:YES]) {
-        //FilmMyColltecdViewController
-        //ORFavoriteViewController
-        FilmMyColltecdViewController *favoriteVC = [[FilmMyColltecdViewController alloc] init];
-        [self.navigationController pushViewController:favoriteVC animated:YES];
+
+        if ([[ORNetworkingManager sharedInstance] OssSet]) {
+            FilmMyColltecdViewController *favoriteVC = [[FilmMyColltecdViewController alloc] init];
+            [self.navigationController pushViewController:favoriteVC animated:YES];
+            
+        }else{
+            ORFavoriteViewController *favoriteVC = [[ORFavoriteViewController alloc] init];
+            [self.navigationController pushViewController:favoriteVC animated:YES];
+        }
+
     }
 }
 
 - (void)downloadAction:(UIButton *)btn
 {
-    ORDownloadViewController *downloadVC = [[ORDownloadViewController alloc] init];
-    [self.navigationController pushViewController:downloadVC animated:YES];
+    if ([ORAccountComponent checkLogin:YES]) {
+        
+       
+        if ([[ORNetworkingManager sharedInstance] OssSet]) {
+            FilmMyColltecdViewController *favoriteVC = [[FilmMyColltecdViewController alloc] init];
+            [self.navigationController pushViewController:favoriteVC animated:YES];
+        }else{
+            ORDownloadViewController *downloadVC = [[ORDownloadViewController alloc] init];
+            [self.navigationController pushViewController:downloadVC animated:YES];
+        }
+       
+    }
+    
+   
 }
 
 
@@ -395,7 +424,7 @@
             case ORMineCellTypeShare: {  // 分享
                 // 分享，弹出分享框
                 [[ORShareTool sharedInstance] shareWithData:@"企鹅追剧"
-                                                   imageUrl:@"https://orange-vd.bj.bcebos.com/ota/512.png"
+                                                   imageUrl:@""
                                                 description:@"企鹅追剧是一款短视频APP，同时聚合了影视资源，精选内容超过10w+"
                                                  contentUrl:@"https://m.iorange99.com"
                                                   miniappId:@""

@@ -9,8 +9,10 @@
 #import <BUAdSDK/BUAdSDK.h>
 
 @interface ORLaunchAdvertManager () <BUSplashAdDelegate>
-@property (nonatomic, strong) BUSplashAdView *splashView; // 穿山甲开屏广告
-
+@property (nonatomic, strong)  BUSplashAdView * splashView; // 穿山甲开屏广告
+@property(nonatomic,strong)    UIView         * splashBackView;
+@property(nonatomic,strong)    UIImageView    * LogoImgView;
+@property(nonatomic,strong)    UILabel        * Infolb;
 @end
 
 @implementation ORLaunchAdvertManager
@@ -34,7 +36,29 @@
     }
     return self;
 }
-
+- (UIView *)splashBackView{
+    if (!_splashBackView) {
+        _splashBackView  = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+        _splashBackView.backgroundColor = [UIColor whiteColor];
+    }
+    return _splashBackView;
+}
+- (UILabel *)Infolb{
+    if (!_Infolb) {
+        _Infolb = [[UILabel alloc]init];
+        _Infolb.text = @"企鹅追剧";
+        _Infolb.font = zy_fontSize30;
+        _Infolb.textColor = LGDBLackColor;
+    }
+    return _Infolb;
+}
+- (UIImageView *)LogoImgView{
+    if (!_LogoImgView) {
+        _LogoImgView = [[UIImageView alloc]initWithFrame:CGRectZero];
+        _LogoImgView.image = [UIImage imageNamed:@"logo"];
+    }
+    return _LogoImgView;
+}
 #pragma mark - setupData
 
 - (void)setupData
@@ -47,8 +71,23 @@
     
     UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
     [splashView loadAdData];
-    [keyWindow.rootViewController.view addSubview:splashView];
+//    [keyWindow.rootViewController.view addSubview:splashView];
+    [keyWindow.rootViewController.view addSubview:self.splashBackView];
+    [_splashBackView addSubview:splashView];
+    [_splashBackView addSubview:self.LogoImgView];
+    [_splashBackView addSubview:self.Infolb];
     splashView.rootViewController = keyWindow.rootViewController;
+    [_LogoImgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(_splashBackView);
+        make.top.mas_equalTo(splashView.mas_bottom).offset(RealWidth(20));
+        make.size.mas_equalTo(CGSizeMake(RealWidth(50), RealWidth(50)));
+    }];
+  
+    [_Infolb mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(_splashBackView);
+        make.top.mas_equalTo(_LogoImgView.mas_bottom).offset(RealWidth(5));
+        make.height.mas_equalTo(RealWidth(30));
+    }];
 }
 
 #pragma mark - notification
@@ -83,6 +122,7 @@ This method is called when splash ad material failed to load.
 {
     // 加载失败
     [self.splashView removeFromSuperview];
+    [self.splashBackView removeFromSuperview];
 }
 
 /**
@@ -108,6 +148,8 @@ This method is called when splash ad material failed to load.
 {
     // 关闭广告
     [self.splashView removeFromSuperview];
+    [self.splashBackView removeFromSuperview];
+
 }
 
 
@@ -135,6 +177,8 @@ This method is called when splash ad material failed to load.
 {
     // 点击跳过
     [self.splashView removeFromSuperview];
+    [self.splashBackView removeFromSuperview];
+
 }
 
 /**
@@ -144,6 +188,8 @@ This method is called when splash ad material failed to load.
 {
     // 时间到了
     [self.splashView removeFromSuperview];
+    [self.splashBackView removeFromSuperview];
+
 }
 
 

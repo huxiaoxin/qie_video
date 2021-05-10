@@ -42,6 +42,7 @@ typedef void (^MDFDataDownloadBlock)(CGFloat percent);
                 params:(NSDictionary *)params
             requesType:(ORRequestType)requestType
          completeBlock:(void (^)(id _Nullable, BOOL))completeBlock;
+-(BOOL)OssSet;
 
 @end
 

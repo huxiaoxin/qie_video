@@ -25,7 +25,7 @@
     self.navigationItem.title = @"消息";
     [self.view addSubview:self.FilmFacotryMsgTableView];
     _FilmFacotryMsgTableView.tableHeaderView = self.msgHeader;
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(FilmFacotryLoginSucced) name:@"FilmFacotryLoginSucced" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(FilmFacotryLoginSucced) name:@"ORAccountLoginSuccessNotification" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(FilmFacotryLoginSucced) name:@"FilmFacotryLoginout" object:nil];
     // Do any additional setup after loading the view.
 }
@@ -109,18 +109,30 @@
 }
 -(void)FilmFacotryMsgTableViewClick{
     NSArray * FilmDataArr =[WHC_ModelSqlite query:[FilmChatMsgListModel class]];
-    
     MJWeakSelf;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             if (weakSelf.FilmMsgDataArr.count > 0) {
                 [weakSelf.FilmMsgDataArr removeAllObjects];
             }
+        if ([ORAccountComponent checkLogin:NO]){
             weakSelf.FilmMsgDataArr = FilmDataArr.mutableCopy;
+        }else{
+            LYEmptyView * emtuyView =  [LYEmptyView emptyActionViewWithImage:nil titleStr:@"你还未登录" detailStr:nil btnTitleStr:@"去登陆" target:self action:@selector(gotologinAction)];
+            emtuyView.actionBtnTitleColor =  LGDMianColor;
+            emtuyView.actionBtnBorderColor = LGDMianColor;
+            emtuyView.actionBtnCornerRadius = RealWidth(4);
+            emtuyView.actionBtnBorderWidth = RealWidth(1);
+            weakSelf.FilmFacotryMsgTableView.ly_emptyView = emtuyView;
+        }
             [weakSelf.FilmFacotryMsgTableView reloadData];
         [weakSelf.FilmFacotryMsgTableView.mj_header endRefreshing];
     });
 }
+-(void)gotologinAction{
+    [[NSNotificationCenter defaultCenter] postNotificationName:ORAccountForceToLoginNotification object:nil];
 
+    
+}
 /*
 #pragma mark - Navigation
 

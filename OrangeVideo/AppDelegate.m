@@ -41,11 +41,14 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+  
+   
+
     // init
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // 设置rootViewController
     [self setupTabBarViewController];
-    
     // 设置穿山甲SDK
     [self configBUAdSDK];
 
@@ -62,7 +65,7 @@
     [self registPushWithConfigData:launchOptions];
     
     // 隐私协议弹框
-    [ORAgreementHintsConfig config];
+//    [ORAgreementHintsConfig config];
     
     // 配置用户数据
     [ORUserInformManager sharedInstance];
@@ -72,7 +75,7 @@
 
     // 乐播投屏
     [LBManager newLBManager];
-    
+
     return YES;
 }
 

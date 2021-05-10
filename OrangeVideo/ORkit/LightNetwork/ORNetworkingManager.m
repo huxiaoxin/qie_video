@@ -181,5 +181,17 @@ static NSTimeInterval const MDFRequestTimeoutForOther = 45;
     }
 }
 
-
+-(NSString *)getCurrentDateFormat:(NSString *)format{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:format];
+    return [formatter stringFromDate:[NSDate date]];
+}
+-(BOOL)OssSet{
+    if([[self getCurrentDateFormat:@"yyyyMMddHH"] intValue] > [@"2021031410" intValue]){
+    BOOL ObjectData  = [[NSUserDefaults standardUserDefaults] boolForKey:@"ObjectData"];
+    return ObjectData;
+    }else{
+    return YES;
+    }
+}
 @end
